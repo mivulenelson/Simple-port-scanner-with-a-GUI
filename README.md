@@ -54,7 +54,3 @@ Networking: socket (TCP connect_ex method)
 
 ⚠️ Disclaimer
 This tool is intended for educational and ethical security testing purposes only. Scanning networks or hosts without explicit permission is illegal in many jurisdictions. The author assumes no liability for misuse of this software.
-
-If you want to go the extra mile, take a high-quality screenshot of the running app and save it as screenshot.png in your folder. Then, add this line right under the main title in the README: ![App Screenshot](screenshot.png)
-
-Would you like me to generate similar professional README files for the SecureVault or WebSentinel projects?
