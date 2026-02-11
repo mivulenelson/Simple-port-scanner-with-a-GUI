@@ -16,18 +16,25 @@ Real-time Logging: Interactive console that reports findings as they are discove
 The project follows a modular architecture to separate business logic from the presentation layer:
 
 Plaintext
-PortScanner/
+simple-port-scanner/
+
 ├── main.py                 # Entry point of the application
+
 ├── scanner_app/
+
 │   ├── core/               # Networking logic & multithreading
+
 │   ├── ui/                 # PySide6 Windows, Widgets, and Styles
+
 │   └── utils/              # Helper functions and logging
+
 └── requirements.txt        # Dependency list
+
 📦 Installation
 Clone the repository:
 
 Bash
-git clone https://github.com/yourusername/portscanner.git
+git clone https://github.com/mivulenelson/portscanner.git
 cd portscanner
 Create a virtual environment:
 
