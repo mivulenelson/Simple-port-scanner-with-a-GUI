@@ -6,7 +6,7 @@ Multi-Threaded Engine: Utilizes QThreadPool and QRunnable to perform scans witho
 
 Smart Interface Detection: A built-in "Refresh IP" feature that automatically detects your local network interface IP.
 
-Flexible Scanning: Support for single port targets or inclusive ranges (e.g., 20-1024).
+Flexible Scanning: Support for single port targets or inclusive ranges (e.g., 0 - 65535).
 
 Real-time Logging: Interactive console that reports findings as they are discovered.
 
@@ -15,27 +15,12 @@ Real-time Logging: Interactive console that reports findings as they are discove
 🛠 Project Structure
 The project follows a modular architecture to separate business logic from the presentation layer:
 
-Plaintext
-simple-port-scanner/
-
-├── main.py                 # Entry point of the application
-
-├── scanner_app/
-
-│   ├── core/               # Networking logic & multithreading
-
-│   ├── ui/                 # PySide6 Windows, Widgets, and Styles
-
-│   └── utils/              # Helper functions and logging
-
-└── requirements.txt        # Dependency list
-
 📦 Installation
 Clone the repository:
 
 Bash
 git clone https://github.com/mivulenelson/portscanner.git
-cd portscanner
+cd simple-port-scanner-with-a-gui
 Create a virtual environment:
 
 Bash
@@ -52,14 +37,14 @@ Bash
 python main.py
 Click Refresh IP to detect your current local IP or type a target manually.
 
-Enter the port range (e.g., 20-445).
+Enter the port range (e.g., 0-65535).
 
-Click Start Security Scan.
+Click Start Scan.
 
 Use Clear Console to wipe the logs between different targets.
 
 ⚙️ Technical Details
-Language: Python 3.x
+Language: Python 3.12.3
 
 GUI Framework: PySide6 (Qt for Python)
 
